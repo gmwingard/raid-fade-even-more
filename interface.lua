@@ -49,8 +49,8 @@ function Interface:Initialize()
         frame.background:SetAlpha(NS.db.global.alpha)
       end
     else
-      frame:SetAlpha(1)
-      frame.background:SetAlpha(1)
+      frame:SetAlpha(.5)
+      frame.background:SetAlpha(.5)
     end
   end)
 end
